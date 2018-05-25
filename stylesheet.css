@@ -3,23 +3,148 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-body {
-  font-size: 1.5em;
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
 a {
-  color: #1EAEDB; }
+  color: #000; 
+  text-decoration: none;
+}
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE; 
+}
+.bodyheading {
+  font-family: 'Oswald';
+  font-size: 1.5em;
+  margin-left: 15%;
+}
+h2 {
+   font-size: 1em;
+   text-align: center;
+   margin-top: 0%;
+   letter-spacing: 0em;
+}
+h3 {
+  font-family: 'Oswald';
+  margin-left: 15%;
+  font-size: 1.2em;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  margin-top: 8%;
+}
+hr {
+  width: 53%;
+  margin-left: 30%;
+  margin-top: -2.5%;
+}
+h4 {
+  font-family: 'Oswald';
+  font-weight: 400;
+  display: inline-block;
+  margin-right: 45%;
+}
+h5 {
+    font-family: 'Oswald';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 8%;
+    font-size: 3em;
+}
+h6 {
+    font-family: 'Oswald';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-bottom: 0%;
+}
+p {
+   text-align: justify;
+   margin-top: 1%;
+   margin-left: 15%;
+   width: 45%;
+}
+.p2 {
+   text-align: justify;
+   margin-top: 1%;
+   margin-left: 29.2%;
+   width: 40%;
+}
+.p3 {
+   text-align: center;
+   margin-top: 0%;
+}
+.links {
+  display: inline-block;
+  margin-left: 5%;
+  font-family: 'Oswald';
+  font-weight: 300;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  text-align: center;
+  padding: 35% 0% 30% 0%;
+  background:rgba(0,0,0,0.5);
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 1.5em;
+  color: #fff;
+}
+.overlay a {
+    color: #fff;
+}
+.work1:hover .overlay {
+  opacity: 1;
+}
+.work2:hover .overlay {
+  opacity: 1;
+}
+.work3:hover .overlay {
+  opacity: 1;
+}
+.work1 {
+  width: 23em;
+  padding: 11% 0% 11% 0%;
+  border: 1px solid #ddd;
+  display: inline-block;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/cloud9.png') no-repeat;
+  background-size: cover;
+  background-position: 47%;
+  margin-left: 7%;
+  position: relative;
+}
+.work2 {
+  width: 23em;
+  padding: 11% 0% 11% 0%;
+  border: 1px solid #ddd;
+  display: inline-block;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/bobos.png') no-repeat;
+  background-size: 118%;
+  background-position: 45%;
+  position: relative;
+}
+.work3 {
+  width: 23em;
+  padding: 11% 0% 11% 0%;
+  border: 1px solid #ddd;
+  display: inline-block;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/modelbox.png') no-repeat;
+  background-size: 115%;
+  background-position: 47% 47%;
+  position: relative;
+}
+i {
+  font-size: 2em;
+  margin-bottom: 2%;
+  margin-left: 50%;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
