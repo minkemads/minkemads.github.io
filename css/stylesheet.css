@@ -3,12 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body {
+    color: #303030;
+}
 a {
-  color: #000; 
+  color: #303030; 
   text-decoration: none;
 }
 a:hover {
-  color: #0FA0CE; 
+  color: #E26E84; 
 }
 .bodyheading {
   font-family: 'Oswald';
@@ -91,10 +94,10 @@ p {
   transition: .5s ease;
   text-align: center;
   padding: 35% 0% 30% 0%;
-  background:rgba(0,0,0,0.5);
+  background:rgba(71,69,66,0.7);
   text-align: center;
   font-family: 'Oswald';
-  font-size: 1.5em;
+  font-size: 2em;
   color: #fff;
 }
 .overlay a {
@@ -114,7 +117,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('/images/cloud9.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/cloud9.png') no-repeat;
   background-size: cover;
   background-position: 47%;
   margin-left: 7%;
@@ -125,7 +128,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('/images/bobos.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/bobos.png') no-repeat;
   background-size: 118%;
   background-position: 45%;
   position: relative;
@@ -135,7 +138,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('/images/modelbox.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/modelbox.png') no-repeat;
   background-size: 115%;
   background-position: 47% 47%;
   position: relative;
@@ -144,6 +147,9 @@ i {
   font-size: 2em;
   margin-bottom: 2%;
   margin-left: 50%;
+}
+i:hover {
+  color: #E26E84;
 }
 
 /* Larger than mobile */
