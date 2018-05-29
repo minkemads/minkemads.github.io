@@ -12,6 +12,7 @@ a {
 }
 a:hover {
   color: #E26E84; 
+  transition: 0.3s;
 }
 .bodyheading {
   font-family: 'Oswald';
@@ -117,7 +118,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('images/cloud9.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/cloud9.png') no-repeat;
   background-size: cover;
   background-position: 47%;
   margin-left: 7%;
@@ -128,7 +129,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('images/bobos.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/bobos.png') no-repeat;
   background-size: 118%;
   background-position: 45%;
   position: relative;
@@ -138,7 +139,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('images/modelbox.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/modelbox.png') no-repeat;
   background-size: 115%;
   background-position: 47% 47%;
   position: relative;
@@ -150,6 +151,13 @@ i {
 }
 i:hover {
   color: #E26E84;
+  transition: 0.3s;
+}
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 1%;
 }
 
 /* Larger than mobile */
