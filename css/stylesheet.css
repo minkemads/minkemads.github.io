@@ -170,7 +170,7 @@ footer {
 }
 
 /* Larger than mobile */
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .work1 {
   padding: 60% 0% 11% 0%;
   margin-left: 6.7%;
