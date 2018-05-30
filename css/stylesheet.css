@@ -82,6 +82,15 @@ p {
   margin-left: 5%;
   font-family: 'Oswald';
   font-weight: 300;
+  margin-top: 7%;
+}
+.links2 {
+  display: inline-block;
+  margin-left: 5%;
+  font-family: 'Oswald';
+  font-weight: 300;
+  margin-left: 43em;
+  margin-top: 7%;
 }
 .overlay {
   position: absolute;
@@ -118,7 +127,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('/images/cloud9.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/cloud9.png') no-repeat;
   background-size: cover;
   background-position: 47%;
   margin-left: 7%;
@@ -129,7 +138,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('/images/bobos.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/bobos.png') no-repeat;
   background-size: 118%;
   background-position: 45%;
   position: relative;
@@ -139,7 +148,7 @@ p {
   padding: 11% 0% 11% 0%;
   border: 1px solid #ddd;
   display: inline-block;
-  background: url('/images/modelbox.png') no-repeat;
+  background: url('file:///Users/madelineminkema/Desktop/Minkema Online Portfolio/images/modelbox.png') no-repeat;
   background-size: 115%;
   background-position: 47% 47%;
   position: relative;
@@ -173,5 +182,42 @@ footer {
 .work3 {
   padding: 60% 0% 11% 0%;
   margin-left: 6.7%;
+}
+.links2 {
+  margin-left: 14%;  
+}
+.links {
+  margin-top: 21%;
+}
+.eleven.columns {
+  width: 50%;   
+}
+.one.column {
+  width: 50%;  
+}
+h2 {
+  width: 70%;  
+  margin-left: 15%;
+}
+h3 {
+  margin-left: 7%; 
+  margin-top: 10%;
+}
+hr {
+  width: 53%;
+  margin-left: 37%;
+  margin-top: -7.5%;      
+}
+p {
+  width: 83%;   
+  margin-left: 7%;
+}
+.p2 {
+  width: 83%;
+  margin-left: 8%;
+}
+.bodyheading {
+  margin-left: 7%;
+  margin-bottom: 5%;
 }
 }
